@@ -1,0 +1,40 @@
+$off-white: #f2f2f2;
+$dark-blue: #081826;
+$deep: #131a40;
+$blue: #355b8c;
+$aqua: #17aebf;
+$bright: #30f2f2;
+
+body {
+	margin: 100px 75px;
+	font-weight: 600;
+	color: $dark-blue;
+	background-color: $off-white;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 600;
+	color: $aqua;
+	transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+	color: $bright;
+}
+
+h1,
+h2,
+h3 {
+	color: $blue;
+}
+
+h3 {
+	font-style: italic;
+}
+
+img {
+	max-width: 475px;
+	max-height: 425px;
+	border: 2px solid #fff;
+}
