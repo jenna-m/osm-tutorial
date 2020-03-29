@@ -3,6 +3,7 @@ import React from 'react';
 function Welcome() {
 	return (
 		<div className="welcome-container">
+			<header className="intro">Hi!</header>
 			<p>
 				In this walkthrough, I’m going to show you how to add
 				information to the{' '}
@@ -13,12 +14,9 @@ function Welcome() {
 				>
 					OpenStreetMap
 				</a>{' '}
-				(OSM) database.
-			</p>
-			<p>
-				When you contribute information to the database, you're helping
-				to populate information to apps that rely on OSM, like
-				Craigslist, Gaia GPS, FourSquare, and{' '}
+				(OSM) database. When you contribute information to the OSM
+				database, you're helping populate information to apps that rely
+				on this data, like Craigslist, Gaia GPS, FourSquare, and{' '}
 				<a
 					href="https://wiki.openstreetmap.org/wiki/Apple_iOS#OpenStreetMap_applications"
 					target="_blank"
@@ -26,9 +24,8 @@ function Welcome() {
 				>
 					many others
 				</a>
-				!
+				. Let's get started!
 			</p>
-			<p>Let's get started!</p>
 		</div>
 	);
 }

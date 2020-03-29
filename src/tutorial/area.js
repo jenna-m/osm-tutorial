@@ -8,14 +8,22 @@ function Area() {
 		<div className="step-container">
 			<h1 className="step-title">Adding an Area</h1>
 			<p>
-				Lastly, I’ll add information for a local recycling collection
-				center located near a neighborhood park.
+				Lastly, let's add information for a local recycling collection
+				center located near{' '}
+				<a
+					href="https://cityofjohnstownpa.net/roxbury-park/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Roxbury Park
+				</a>
+				, a local neighborhood park.
 			</p>
 			<ul>
 				<li>
 					<p>
-						I’ll zoom in to Roxbury Park, find the recycling center,
-						and click “Area” from the “Add Feature” menu in the
+						Zoom in to Roxbury Park, find the recycling center, and
+						click “Area” from the “Add Feature” menu in the
 						top-center of the map window.
 					</p>
 					<img
@@ -25,8 +33,8 @@ function Area() {
 				</li>
 				<li>
 					<p>
-						I’ll trace around the recycling center to select it (it
-						will be enclosed in a glowing red outline).
+						Trace around the recycling center by left-clicking
+						around the area you want to select.
 					</p>
 					<img
 						src={area2}
@@ -35,9 +43,9 @@ function Area() {
 				</li>
 				<li>
 					<p>
-						In the left pane, I’ll search for “recycling” and select
-						“Recycling Center” from the results and add all of the
-						additional information I know.
+						In the left pane, search for “recycling” and select
+						“Recycling Center” from the results. Add all of the
+						additional, relevant information.
 					</p>
 					<img
 						src={area3}
@@ -46,7 +54,8 @@ function Area() {
 				</li>
 				<li>
 					<p>
-						I’ll save my changes just as I did above in Add a Point.
+						Save your changes just as above in{' '}
+						<span className="section">Add a Point</span>.
 					</p>
 				</li>
 			</ul>

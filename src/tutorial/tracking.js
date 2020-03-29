@@ -26,22 +26,30 @@ function Tracking() {
 		<div className="step-container">
 			<h1 className="step-title">Tracking for improved accuracy</h1>
 			<p>
-				On second thought, I should go walk that pathway and record my
-				track with Gaia GPS and upload the track to OSM. This will
-				improve accuracy, be more beneficial to other users, and allow
-				me to gather additional information (like ascent/descent and
-				altitude).
+				On second thought, we should walk along that pathway, record the
+				track with{' '}
+				<a
+					href="https://gaiagps.com"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Gaia GPS
+				</a>{' '}
+				and upload the track to OSM. This will improve accuracy, be more
+				beneficial to other users, and allow us to gather additional
+				information (like ascent/descent and altitude).
 			</p>
 			<h2>Tracking with Gaia GPS</h2>
 			<ul>
 				<li>
 					<p>
-						I’ll make my way to the location where I want to start
-						recording my track. I’ll open Gaia GPS and tap the
-						“Record” button in the top left corner (your button
-						might be in a different place if you’ve modified the
-						original menu layout). You can also access the “Record”
-						button from the “Track” page.
+						In real life, make your way to the location where you
+						want to start recording your track. Open the Gaia GPS
+						app on your mobile device and tap the “Record” button in
+						the top-left corner (your button might be in a different
+						place if you’ve modified the original menu layout). You
+						can also access the “Record” button from the “Track”
+						page.
 					</p>
 					<img
 						src={tracking1}
@@ -50,17 +58,18 @@ function Tracking() {
 				</li>
 				<li>
 					<p>
-						I’ll start walking along the footpath/trail so the app
-						can track me. I’ll also take some photos along the way
-						to document what the footpath looks like.
+						Start walking along the footpath/trail, and the app will
+						begin recording your location. You can also take some
+						photos along the way to document what the footpath looks
+						like for other users.
 					</p>
 				</li>
 				<li>
 					<p>
-						When I’ve reached the end of the footpath, I’ll tap the
-						“Record” button again (which has changed to a running
-						timer) and tap “Finish Track.” You can also pause or
-						delete the recording if you need to.
+						When you’ve reached the end of the footpath, tap the
+						“Record” button again (which has now changed to a
+						running timer) and tap “Finish Track”. You can also
+						pause or delete the recording if needed.
 					</p>
 					<img
 						src={tracking2}
@@ -69,9 +78,10 @@ function Tracking() {
 				</li>
 				<li>
 					<p>
-						I’ll edit my recorded track information. I can export
-						the GPX file from the app, or I can download it directly
-						from the Gaia GPS website.
+						Edit the recorded track information, like the title and
+						activity, and tap "Save" in the top-right corner. You
+						can export the GPX file from the app or download it
+						directly from the Gaia GPS website on your computer.
 					</p>
 					<img
 						src={tracking3}
@@ -81,9 +91,9 @@ function Tracking() {
 				<li>
 					<p>
 						To export from the app, tap on the three dots in the
-						top-right of the app. Select “Export” and select “GPX”
-						as the file format. Choose how you’d like the file
-						exported (i.e., email it to yourself).
+						top-right corner of the app. Tap “Export”, then tap
+						“GPX” as the file format. Choose how you’d like the file
+						exported (for example, email it to yourself).
 					</p>
 					<img
 						src={tracking4}
@@ -98,9 +108,16 @@ function Tracking() {
 
 				<li>
 					<p>
-						To download the GPX file from GaiaGPS.com, log in, hover
-						over your username, and click on “Tracks” to see all of
-						your recorded tracks.
+						To download the GPX file from{' '}
+						<a
+							href="https://gaiagps.com"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							GaiaGPS.com
+						</a>
+						, log in, hover over your username, and click on
+						“Tracks” to see all of your recorded tracks.
 					</p>
 					<img src={tracking7} alt="Gaia GPS homepage" />
 				</li>
@@ -124,16 +141,24 @@ function Tracking() {
 			<ul>
 				<li>
 					<p>
-						Log in to OpenStreetMap and click “Traces” at the top of
-						the screen.
+						Log in to{' '}
+						<a
+							href="https://openstreetmap.org"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							OpenStreetMap
+						</a>{' '}
+						and click “GPS Traces” at the top of the screen.
 					</p>
 					<img src={upload1} alt="OpenStreetMap homepage" />
 				</li>
 				<li>
 					<p>
-						On the Public Traces page, click the “Upload a trace”
-						link. Browse to the GPX file on your computer, edit the
-						information, and click the “Create Trace” button.
+						On the Public GPS Traces page, click the “Upload a
+						trace” link. Browse to the GPX file on your computer,
+						edit the information, and click the “Create Trace”
+						button.
 					</p>
 					<img src={upload2} alt="OpenStreetMap Public Traces page" />
 					<img
@@ -143,10 +168,11 @@ function Tracking() {
 				</li>
 				<li>
 					<p>
-						If your GPX file was uploaded successfully, you will
-						receive the following message. It will take a few
-						moments for the file to be uploaded to the OSM database,
-						and you will receive and email once completed.
+						If your upload was successful, you will receive the
+						following message and see that the upload is marked as
+						"PENDING". It will take a few moments for the file to be
+						uploaded to the OSM database, and you will receive an
+						email once it has been added.
 					</p>
 					<img
 						src={upload4}
@@ -172,9 +198,10 @@ function Tracking() {
 				</li>
 				<li>
 					<p>
-						If you've previously traced the footpath manually, you
-						can adjust the manually traced line to more accurately
-						fit the GPX file.
+						Previously, we traced the footpath manually, but we need
+						to adjust the traced line to more accurately reflect the
+						GPX file. Left-click on points along the old line and
+						drag them to line up with the superimposed GPX file.
 					</p>
 					<img
 						src={tracing3}
@@ -185,15 +212,17 @@ function Tracking() {
 					<p>
 						You can delete unnecessary points on the original trace
 						by left clicking on the point, then right clicking and
-						selecting the trash can from the menu.
+						selecting the trash can icon from the menu. Take care to
+						not delete points that other users have added to the
+						map.
 					</p>
 					<img src={tracing4} alt="Deleting a point on the map" />
 				</li>
 				<li>
 					<p>
-						That looks better! After cleaning up the trace to match
-						the GPX information, you can save your changes just as
-						above in Add a Point.
+						After cleaning up the trace to match the GPX
+						information, you can save your changes just as above in{' '}
+						<span className="section">Add a Point</span>.
 					</p>
 					<img src={tracing5} alt="A more accurate footpath" />
 				</li>
